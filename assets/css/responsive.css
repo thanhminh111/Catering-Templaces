@@ -1,0 +1,29 @@
+/* Mobie */
+@media ( max-width: 739px){
+    .sub_heading{
+        display: none;
+    }
+    .content_slider{
+        display: none;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px ) and ( max-width:1023px){
+    .p_2_about{
+        display: none;
+    }
+    .img_menu{
+        width: 100%;
+    }
+    
+}
+/* Tablet and mobile */
+@media ( max-width: 1023px){
+    .btn_contact{
+        width: 100%;
+    }
+    #footer p{
+        padding: 14px 16px;
+    }
+}

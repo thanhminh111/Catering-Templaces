@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* class common */
+.pd_8_16{
+    padding: 8px 16px !important; 
+}
+.pd_12_24{
+    padding: 12px 24px !important; 
+}
+.pd_16px_0{
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+}
+.pd_64px_0{
+    padding: 64px 0 !important; 
+}
+.pd_64px_16px{
+    padding: 64px 16px !important; 
+}
+.pd_32px_0{
+    padding: 32px 0 !important; 
+}
+.text_center{
+    text-align: center !important;
+}
+.text_opacity{
+    opacity: 0.6 !important;
+}
+.img_opacity{
+    opacity: 0.75 !important;
+}
+.margin_10_0{
+    margin: 10px 0 !important;
+}
+.margin_18_0{
+    margin: 18px 0 !important;
+}
+.letter_spacing_5{
+    letter-spacing: 5px !important;
+}
+
+.fz36px{
+    font-size: 36px!important;
+
+}
+.fz15px{
+    font-size: 15px !important;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+} 
+
+br{
+    width: 0;
+    height: 16px;
+}
+.clear{
+    clear: both;
+}
+/* body */
+html{
+    scroll-behavior: smooth;
+}
+#main{
+
+}
+/* header */
+#header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    width: 100%;
+    height: 55px;
+    line-height:35px;
+    letter-spacing: 4px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+#header a{
+    color: #000;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 8px 16px ;
+    border: 0; 
+    scroll-behavior: smooth;
+}
+#contact .btn_contact:hover,
+#header a:hover{
+    background-color: #ccc;
+}
+
+.sub_heading{
+    float: right;
+}
+.sub_heading li{
+    display: inline-block;
+}
+
+/* slider */
+#slider{
+    position: relative;
+    /* margin-top: 55px; */
+    padding-top: 50%;
+    background: url(./img/slider.jpg) top center / cover no-repeat;
+}
+.content_slider{
+    position: absolute;
+    bottom: 0;
+}
+/* about */
+.content_about{
+
+}
+
+.p_1_about,
+.p_2_about{
+    letter-spacing: 1px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.sub_heading_about{
+    font-size: 18px;
+}
+/* line */
+.line{
+    border: 0;
+    border-bottom: 1px solid #eee ;
+    margin: 20px 0;
+}
+/* menu */
+
+.sub_menu{
+    font-size: 20px;
+}
+
+/* contact */
+.address_contact{
+    color: #607d8b;
+    font-size: 18px;
+    font-weight: 600;
+}
+.input_contact{
+    width: 100%;
+    padding-left: 8px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+.btn_contact{
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    background-color: #f1f1f1;
+    text-transform: uppercase;
+}
+.btn_contact:hover{
+   background-color: #ccc; 
+}
+/* footer */
+.power_footer{
+    color: #000;
+    background-color: #f1f1f1;
+}
+#footer a{
+    color: #000;
+}
+
+    
